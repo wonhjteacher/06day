@@ -49,4 +49,38 @@ header .top-menu li.cart a{
     text-indent: -9999px;font-size: 0;
 }
 
+footer .footer-menu{border-bottom: 1px solid #d0d0d0;}
+footer .footer-policy{float: left;padding: 16px 0;}
+footer .footer-policy li{display: inline-block;padding: 0 25px;position: relative;}
+footer .footer-policy li:first-child{padding-left: 0;}
+footer .footer-policy li::before{content: '';display: block;position: absolute;left:0;top:50%;transform:translateY(-50%);width: 1px;height: 13px;background-color: #d0d0d0;}
+footer .footer-policy li:first-child::before{display: none;}
+footer .footer-policy li a{display:block;height: 20px;line-height: 20px;font-size: 14px;}
+footer .footer-policy li a strong{color:#067dfd}
+footer .seller-service{
+    float: right;
+    padding-top:9px ;
+}
+footer .seller-service-btn{
+    border:1px solid #d0d0d0;
+    width: 120px;
+    height: 34px;
+    background-color: #fff;
+    text-align: left;
+    text-indent: 8px;
+    position: relative;
+    cursor: pointer;
+}
+footer .seller-service-btn::after{
+    content:'';display: block;
+    background: url('../img/sprite__common.png') no-repeat -343.5px -117.5px;
+    background-size: 400px auto;
+	width: 9.5px;
+	height: 5px;
+    position: absolute;
+    right: 8px;top:50%;transform: translateY(-50%);
+
+}
+
+
 
