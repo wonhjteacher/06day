@@ -60,6 +60,7 @@ footer .footer-policy li a strong{color:#067dfd}
 footer .seller-service{
     float: right;
     padding-top:9px ;
+    position: relative;
 }
 footer .seller-service-btn{
     border:1px solid #d0d0d0;
@@ -80,6 +81,33 @@ footer .seller-service-btn::after{
     position: absolute;
     right: 8px;top:50%;transform: translateY(-50%);
 
+}
+
+footer .seller-service-list-box{
+    width: 220px;
+    border:1px solid #666;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    top:47px;
+    display: none;
+
+}
+footer .seller-service-list li a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color:#666;
+}
+footer .seller-service-list li a:hover{
+    color:#111;
+}
+
+footer .seller-service-btn:hover + .seller-service-list-box{
+    display: block;
 }
 
 
