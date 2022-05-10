@@ -110,5 +110,37 @@ footer .seller-service-btn:hover + .seller-service-list-box{
     display: block;
 }
 
+footer .company-info{overflow:hidden;padding:13px 0 19px;border-top:1px solid #ececec}
+footer .company-detail-info{float:left;width:620px}
+footer .cscenter-info{float:left;width:580px}
+footer .company-info .text_company-title,
+footer .company-info .link_company-title{position:relative;display:inline-block;padding-right:19px;font-size:14px;line-height:20px;font-weight:bold;letter-spacing:-1px;color:#5e636d}
+footer .link_company-title::after{content:'';width:16px;height:16px;margin-left:4px;margin-top:-3px;background:url(../img/sprite__common.png) no-repeat -358px -112px / 400px auto;vertical-align:middle;display: inline-block;}
+footer .company-info .text_content{margin-top:5px;font-size:13px;line-height:23px;letter-spacing:-0.5px;color:#757c8a}
+footer .company-info .text_content .link_business-info{width:86px;height:20px;margin:-3px 8px 0 6px;vertical-align:middle;background:url(../img/sprite__common.png) no-repeat -292px -298px / 400px auto;text-indent: -9999px;display: inline-block;}
+
+footer .company-info .text_content .text_emphasis{color:#2e8de5}
+footer .company-info .text_content .link_mail{color:#757c8a}
+
+footer .legal-info{padding:9px 0 18px;border-top:1px solid #ececec}
+footer .legal-info .list_legal-info{overflow:hidden;width:750px;font-size:0}
+footer .legal-info .list_legal-info>li{display:inline-block;margin-right:30px;padding-top:7px;font-size:13px;line-height:20px;color:#94989f;}
+footer .legal-info .button_legal-info{border:none;background-color:#fff;}
+footer .legal-info .button_legal-info,
+footer .legal-info .link_legal-info,
+footer .legal-info .link_mail{font-size:13px;line-height:20px;color:#94989f;}
+footer .legal-info .button_legal-info::after,
+footer .legal-info .link_legal-info::after{background-position:-238px -34px;display: inline-block;}
+
+footer .common_sprite::after{
+    content:'';margin-left:5px;background:url(../img/sprite__common.png) no-repeat ;background-size: 400px auto;width:5px;height:10px;
+
+}
+
+footer .footer-notice{padding:16px 0 85px;border-top:1px solid #ececec}
+footer .footer-notice .text_notice{font-size:12px;line-height:20px;color:#94989f}
+footer .footer-notice .text_notice .button_notice{margin-left:8px;margin-top:-1px;font-size:12px;line-height:20px;color:#94989f;border:0;text-decoration:underline;background-color: #fff;cursor: pointer;}
+footer .footer-notice .text_notice .text_emphasis{font-weight:normal;color:#5e636d}
+footer .footer-notice .text_copyright{font-size:12px;line-height:20px;color:#94989f}
 
 
