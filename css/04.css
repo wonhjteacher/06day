@@ -11,6 +11,42 @@ header .logo a{
     text-indent: -9999px;
     font-size: 0;
 }
-header .search-area{float: left;border:2px solid #067dfd;height: 48px;border-radius: 24px;width: 500px;}
-header .top-menu li{float: left;}
+header .search-area{float: left;border:2px solid #067dfd;height: 48px;border-radius: 24px;width: 500px;margin-top: 32.5px;}
+header .search-box{height: 48px;box-sizing: border-box;padding: 8px;position: relative;}
+header .search-btn{
+    background: url('../img/sprite__common.png') no-repeat -756px -62px;
+	width: 25px;height: 25px;
+    text-indent: -9999px;font-size: 0;
+    border: none;
+    position: absolute;
+    right: 10px;top:11.5px;
+}
+header .search-box input[type='text']{border:none;width: 450px;height: 32px;outline: none;line-height: 32px;font-size: 17px;color:#067dfd}
+header .top-menu li{float: left;margin-right: 20px;}
+header .top-menu li.mypage a{
+    display: block;
+    background: url('../img/sprite__common.png') no-repeat -256px -2.5px;
+    background-size:400px auto;
+	width: 33px;
+	height: 33px;
+    text-indent: -9999px;font-size: 0;
+}
+header .top-menu{margin-top: 40px;}
+header .top-menu li.recent-list a{
+    display: block;
+    background: url('../img/sprite__common.png') no-repeat -296.5px -1px;
+    background-size:400px auto;
+	width: 36px;
+	height: 36px;
+    text-indent: -9999px;font-size: 0;
+}
+header .top-menu li.cart a{
+    display: block;
+    background: url('../img/sprite__common.png') no-repeat -336px -0.5px;
+    background-size:400px auto;
+	width: 40px;
+	height: 37.5px;
+    text-indent: -9999px;font-size: 0;
+}
+
 
